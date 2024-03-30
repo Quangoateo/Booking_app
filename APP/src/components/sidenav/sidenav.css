@@ -1,0 +1,104 @@
+
+
+.sidenav-container {
+  display: flex;
+  color: var(--container-color);
+
+}
+
+.ant-layout-sider-children{
+border-right: 1px solid var(--border-color);
+}
+
+.sidenav-logo-name-container {
+  height: max-content;
+  background-color: #fff; /* Adjust the background color as needed */
+  border-right: 1px solid #f0f0f0;
+  padding: 16px;
+}
+
+.sidenav-logo {/* Adjust the width of your logo */
+  height: 60px; /* Adjust the height of your logo */
+  object-fit: contain;
+  margin: 0 0 8px 12px;
+}
+
+.sidenav-app-name {
+  font-size: var(--h3-font-size); /* Adjust the font size as needed */
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+  text-align: center;
+  margin-bottom: var(--mb-1)
+}
+
+.sidenav-menu-bar{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--normal-font-size);
+  width: 300px;
+  
+}
+
+.sidenav-profile-section {
+  background-color: var(--container-color); 
+  padding: 16px;
+  position: absolute;
+  bottom: 0;
+  width: 300px;
+  height: 100px;
+  border-top: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+}
+
+.sidenav-profile-section-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.sidenav-profile-section-wrapper i{
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+}
+
+.sidenav-profile-user-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  font-size: var(--normal-font-size);
+  margin-right: var(--mb-0-5);
+}
+
+.sidenav-user-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidenav-user-name {
+  /*margin-right: 8px;*/
+  font-weight: var(--font-semi-bold);
+  font-size: var(--small-font-size);
+  line-height: 24px;
+  color: var(--title-color);
+  display: flex;
+  align-self: center;
+}
+
+.sidenav-user-role{
+  color: #A800E3;
+  border-radius: 5px;
+  font-size: var(--small-font-size);
+  /*border: 2px solid #A800E3;*/
+  padding: 2px 4px;
+  width: max-content;
+  line-height: 24px;
+  font-weight: var(--font-semi-bold);
+}
+
+.sidenav-user-email {
+  margin-top: 8px;
+  line-height: 24px;
+}
+.sidenav-signout-btn{
+  cursor: pointer;
+}

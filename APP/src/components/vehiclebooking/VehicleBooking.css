@@ -1,0 +1,66 @@
+/* VehicleBooking.css */
+
+/* Global styles */
+input[type="text"] {
+  min-width: 100px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.orangeButton {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* VehicleBooking.css */
+
+.vehicle-booking-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.vehicle-booking-left,
+.vehicle-booking-right {
+  width: 100%;
+}
+
+.vehicle-booking-left h1 {
+  margin-top: 0;
+}
+
+.vehicle-booking-left .booking-reason,
+.vehicle-booking-left .destination {
+  margin-bottom: 20px;
+}
+
+.vehicle-booking-right .date-time-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vehicle-booking-right .date-time-container > div {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.vehicle-booking-right .pickup-location,
+.vehicle-booking-right .vehicle-type-container {
+  width: 100%;
+}
+
+.confirm-button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.map-container {
+  margin-top: auto;
+  height: 300px;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,83 @@
+.create-booking-container{
+    padding: 2rem;
+}
+
+.create-booking__title-and-button-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+.create-booking__title{
+    
+}
+
+.create-booking__emptyobj{
+    color: transparent !important;
+}
+
+  
+.create-booking__close-button{
+    background: var(--title-color);
+    font-size: 1rem !important;
+}  
+.create-booking__close-button:hover {
+    background-color: var(--title-color-light) !important;
+  }
+.create-booking__close-button:active {
+    background-color: var(--title-color-dark) !important;
+}
+
+.create-booking-info{
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.create-booking-info-list{
+    display: flex; 
+    flex-wrap: wrap; 
+    list-style: none; 
+    padding-top: 1rem;
+}
+
+.create-booking-info-item {
+    flex: 1 0 40%;
+    margin: 5px; 
+}
+
+.create-booking-form{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+
+
+.create-booking-form__title{
+    padding-bottom: 1rem;
+}
+
+.create-booking-form__time-selection{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.75rem;
+}
+
+  .create-booking__button-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .create-booking__button {
+    margin: 1rem;
+    padding: 4px 8px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: var(--normal-font-size);
+  }

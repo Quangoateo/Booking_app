@@ -1,0 +1,24 @@
+version: '3.9'
+services:
+  pigfarmapi:
+    image: pigfarmapi
+    container_name: pigfarmapi
+    ports:
+      - "1000:80"
+    volumes:
+      - file_uploads:/wwwwroot/FileUploads
+    networks: 
+      - overlay
+  pigfarmweb:
+    image: pigfarmweb
+    container_name: pigfarmweb
+    ports:
+      - "1002:80"
+    networks: 
+      - overlay
+    build:
+      context: ../App
+volumes:
+  file_uploads:
+networks: 
+  overlay:

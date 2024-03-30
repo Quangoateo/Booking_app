@@ -1,0 +1,57 @@
+.regulation-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-y: auto;
+    min-height: 100vh;
+  }
+  
+  .regulation-page .content{
+    flex-grow: 1;
+  
+  }
+  
+  .regulation-page h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .regulation-page h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .regulation-page p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .regulation-page ul {
+    margin-bottom: 15px;
+  }
+  
+  .regulation-page li {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .regulation-page a {
+    color: #007bff;
+  }
+  
+  .regulation-page a:hover {
+    text-decoration: underline;
+  }
+  
+  .regulation-page .footer{
+    background-color: orange;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

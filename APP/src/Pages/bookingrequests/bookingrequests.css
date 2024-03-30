@@ -1,0 +1,34 @@
+/* roombookinglist.css */
+.status-accepted {
+    color: #52c41a;
+  }
+  
+  .status-pending {
+    color: #faad14;
+  }
+  
+  .status-rejected {
+    color: #f5222d;
+  }
+
+  .status-open {
+    color: #22f5e7;
+  }
+  
+  
+  /* Change color for edit and delete buttons */
+  .ant-btn-link.accept-button {
+    color: #52c41a; /* Green color for edit button */
+  }
+  
+  .ant-btn-link.reject-button {
+    color: #f5222d; /* Red color for delete button */
+  }
+  
+  .site-layout{
+    background-color: var(--container-color);
+  }
+
+  .main-content{
+    background-color: var(--container-color);
+  }

@@ -1,0 +1,74 @@
+.room-display-container {
+    width: 80%;
+    margin: 20px; 
+    /* text-align: center; */
+  }
+
+  .room-booking-filter{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 0;
+  }
+  
+  .building-select {
+    margin-bottom: 20px;
+  }
+  
+  .building-select label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .room-display-container h3{
+    margin-bottom: 2rem;
+  }
+
+  .room-table{
+    gap: 0;
+  }
+
+  .table-header {
+    background-color: var(--title-color);
+    color: var(--container-color) ;
+    font-weight: var(--font-medium);
+  }
+  
+  .table-body { 
+    /* Add styles for the table body */
+  }
+  
+  .table-row {
+    /* Add styles for individual rows */
+  }
+  
+  .table-row:nth-child(even) { /* Style for even rows */
+    background-color: #f8f8f8;
+  }
+  
+  .table-cell {
+    padding: 10px;
+    border: 1px solid #ddd; 
+  }
+
+  .table-cell:first-child{
+    font-weight: var(--font-medium);
+    text-align: center;
+  }
+
+  .table-cell:nth-child(2){
+    text-align: center;
+  }
+
+  .table-cell:nth-child(5){
+    text-align: center;
+  }
+
+  .table-cell:last-child{
+      min-width: 100px;
+  }
+  
+  .table-cell:last-child:hover{
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    
+  }

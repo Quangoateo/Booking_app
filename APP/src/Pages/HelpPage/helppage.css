@@ -1,0 +1,30 @@
+.help-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: orange;
+    font-size: large;
+  }
+  
+  .section {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    color: orange; /* Blue color for strong tags */
+  }
+  
+  .link-to-click {
+    color: orange;
+  }
+  
+  .help-page button {
+    margin-top: 15px;
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+  }
+  

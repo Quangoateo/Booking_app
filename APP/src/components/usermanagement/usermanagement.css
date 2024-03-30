@@ -1,0 +1,12 @@
+/* usermanagement.css */
+.delete-button {
+  color: #ff4d4f;
+  background-color: #fff1f0;
+  border-color: #ff4d4f;
+}
+
+.delete-button:hover {
+  color: #ff4d4f;
+  background-color: #ffccc7;
+  border-color: #ffa39e;
+}
